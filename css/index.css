@@ -11,11 +11,12 @@ body{
     background-size: cover;
     margin: 8px;
     display: block;
+    opacity: .9;
 
 }
 /*************************header*********/
 #header-nav {
-  background-color:ivory;
+  background-color:#FEFCFD;
   border-radius: 50px;
   border: 3px solid ivory;
 }
@@ -38,7 +39,7 @@ body{
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  color:brown;
+  color:#69140E;
   padding: 8px;
 
 
@@ -51,11 +52,11 @@ body{
   font-size:30px;
 }
 #nav-list a {
-  color:brown;
+  color:#69140E;
   text-align: center;
 }
 #nav-list a:hover {
- color: red;
+ color:#D58936;
  text-shadow: 1px 1px 1px #222;
 }
 /*#nav-list a span {
@@ -68,18 +69,22 @@ body{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -20px;
-  scroll-behavior: smooth;
+  
 
 }
 section {
     border: 2px solid black;
-    background-color: #E0FFFF;
+    background-color: #D9E5D6;
     width: 100%;
     height:100%;
     padding:18px;
     color: black;
     position: relative;
     overflow: none;
+    
+}
+section:hover{
+    box-shadow: 0 3px 5px 2px #F6F4F3;
 }
 section > div {
     border: 1px solid black;
@@ -102,19 +107,19 @@ p{
 }
 
 #bc{
-	background-color:#00BFFF;
+	background-color:#ECDD7B;
 	opacity: 100%;
 	font-size:20px;
 	font-family: 'Roboto', sans-serif;
 }
 #dc{
-	background-color: #FF1439;
+	background-color: #D3E298;
 	opacity: 100%;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
 }
 #wc{
-	background-color:#008000;
+	background-color:#CDE7BE;
 	opacity: 100%;
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
